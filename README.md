@@ -28,4 +28,3 @@ O aplicativo de Avaliação e Recrutamento de Talentos é uma plataforma projeta
 
 ## Licença
 
-Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
