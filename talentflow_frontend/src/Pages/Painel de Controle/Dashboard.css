@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  flex: 0 0 15%;
+  height: 100px; 
+}
+
+.content {
+  flex: 0 0 70%;
+  height: 300px;
+}
+
+.botnavega {
+  flex: 0 0 15%;
+  height: 50px;
+}

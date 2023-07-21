@@ -1,0 +1,20 @@
+- Auth (Autenticação)
+  - Login
+  - Registro
+  - Esqueci a Senha
+
+- Dashboard (Painel de Controle)
+  - Vagas
+    - Status das últimas candidaturas
+    - Últimas Vagas
+    - Detalhes da Vaga
+  - Candidatos
+    - Triagem de Currículos
+    - Testes e Avaliações
+    - Agendamento de Entrevistas
+    - Avaliação e Feedback
+  - Relatórios e Análises
+
+- Candidate (Candidato)
+  - Tela do Candidato
+

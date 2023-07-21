@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  touch-action: pan-x pan-y;
+  overflow: hidden;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginD {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+.loading-bar {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  height: 8px;
+  margin-top: 16px;
+  width: 100%;
+}
+
+.loading-bar-fill {
+  background-color: rgba(228, 124, 6, 0.8);
+  animation: loading-bar-animation 1s linear;
+  border-radius: 4px;
+  height: 100%;
+  width: 0;
+}
+
+@keyframes loading-bar-animation {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.LoginD .image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-Top: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+  /* Para navegadores baseados no WebKit (como Safari) */
+  -moz-user-select: none;
+  /* Para navegadores baseados no Gecko (como Firefox) */
+  -ms-user-select: none;
+  /* Para navegadores baseados no Trident (como o antigo Internet Explorer) */
+  pointer-events: none;
+}
+
+.LoginD form {
+  margin-bottom: 2%;
+}
+
+.LoginD p {
+  margin-bottom: 2%;
+}
+
+.textogea {
+  width: 50%;
+  height: 100%;
+  background-color: #010101;
+  color: white;
+  font-weight: 600;
+  word-wrap: break-word;
+  border-radius: 20px;
+  border: 2px #011A28 solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 1%;
+  font-size: 20px;
+  margin-right: 5px;
+}
+.textogea2{
+  width: 50%;
+  height: 100%;
+  margin-left: 10px;
+  color: #023047;
+  font-weight: 600;
+  word-wrap: break-word;
+  background: white;
+  border-radius: 20px;
+  border: 2px grey solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2% 2%;
+  font-size: 20px;
+}
+@media screen and (max-width: 850px) {
+  .login {
+    height: 100vh;
+    /* Ajuste a altura para ocupar toda a tela */
+
+  }
+
+  .loginD {
+    width: 90%;
+  }
+
+  .textogea {
+    font-size: 14px;
+  }
+  .textogea2{
+    font-size: 14px;
+  }
+}
