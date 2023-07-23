@@ -125,10 +125,7 @@ function Login() {
               wordWrap: "break-word",
               background: "#023047",
               borderRadius: 10,
-              borderLeft: "1px #011A28 solid",
-              borderTop: "1px #011A28 solid",
-              borderRight: "1px #011A28 solid",
-              borderBottom: "1px #011A28 solid",
+              border: "1px #011A28 solid",              
               padding: "0 10px",
             }}
           ></input>
@@ -166,10 +163,7 @@ function Login() {
               wordWrap: "break-word",
               background: "#023047",
               borderRadius: 10,
-              borderLeft: "1px #011A28 solid",
-              borderTop: "1px #011A28 solid",
-              borderRight: "1px #011A28 solid",
-              borderBottom: "1px #011A28 solid",
+              border: "1px #011A28 solid",            
               padding: "0 10px",
             }}
           />
