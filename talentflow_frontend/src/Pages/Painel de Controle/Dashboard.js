@@ -1,4 +1,5 @@
 import React from "react";
+import "./Dashboard.css";
 import Header from "../Cabecalho_e_botoesdenavegacao/header";
 import Botnavegação from "../Cabecalho_e_botoesdenavegacao/Botnavega";
 import ContentInicial from "./ContentInicial";

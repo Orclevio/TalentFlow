@@ -17,7 +17,7 @@ function Login() {
   async function Autentica() {
     try {
       console.log("Enviando requisição para autenticação...");
-      const response = await axios.post("http://localhost:3001/auth", {
+      const response = await axios.post("http://172.20.10.4:3001/auth", {
         email,
         password,
       });

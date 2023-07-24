@@ -12,7 +12,7 @@ app.use(cors());
 
 
 const connection = mysql.createConnection({
-  host: '192.168.0.23',
+  host: '172.20.10.4',
   user: 'root',
   password: '1410',
   database: 'talentflow' 

@@ -3,8 +3,7 @@ import "./header.css";
 import img1 from "../../Imagens/header/perfil.png";
 import notificaimg from "../../Imagens/header/notifica.png";
 import configuraimg from "../../Imagens/header/configura.png";
-import pesquisa from "../../Imagens/header/pesquisa.png";
-import pesquisa1 from "../../Imagens/header/pesquisa1.png";
+
 
 function header() {
 
@@ -37,19 +36,7 @@ function header() {
 
                 </div>
             </div>
-            <div className="pesquisahead">
-            <button type="submit" className="btnpesquisa" style={{width: "45px"}}>
-                <img alt="" style={{width: "20px", backgroundColor:"transparent"}} src={pesquisa1}></img>
-                </button>
-                <form className="formpesquisa">
-                    <input
-                        type="text"
-                        placeholder="Pesquisa"
-                         className="inputpesquisa"
-                    />
-                </form>
-            </div>
-
+           
         </div>
     )
 }

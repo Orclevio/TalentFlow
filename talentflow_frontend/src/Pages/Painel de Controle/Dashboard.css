@@ -8,6 +8,7 @@
 .header {
   flex: 0 0 15%;
   height: 100px; 
+  
 }
 
 .content {
@@ -17,5 +18,4 @@
 
 .botnavega {
   flex: 0 0 15%;
-  height: 50px;
 }
