@@ -110,6 +110,20 @@ code {
   padding: 2% 2%;
   font-size: 20px;
 }
+.buttonenv{
+  width: 70%;
+  height: 100%;
+  padding: 2%;
+  margin-top: 10px;
+  background: #FB8500;
+  border-radius: 10px;
+  border: 1px solid rgba(228, 124, 6, 0.8);
+  color: white;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.72;
+}
 @media screen and (max-width: 850px) {
   .login {
     height: 100vh;
@@ -123,8 +137,10 @@ code {
 
   .textogea {
     font-size: 14px;
+    width: 150px;
   }
   .textogea2{
     font-size: 14px;
+    width: 150px;
   }
 }

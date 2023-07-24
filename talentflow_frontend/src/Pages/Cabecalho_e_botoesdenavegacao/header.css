@@ -1,3 +1,4 @@
+
 .headercont {
     display: flex;
     justify-content: center;
@@ -75,11 +76,10 @@ margin-top: -2px;
 .pesquisahead {
     display: flex;
     justify-content: center;
-    width: 95%;
+    width: 100%;
     height: 40px;
-    background-color: #E9E9E9;
+    background-color: transparent;
     border-radius: 12px;
-    margin-left: 2.5%;
     margin-bottom: 5%;
 
 }
@@ -88,14 +88,16 @@ margin-top: -2px;
     display: flex;
     justify-content: flex-start;
     text-align: center;
-    width: 100%;
-    padding: 0 3%;
+    background-color: #E9E9E9;
+    border-radius: 0 12px 12px 0px;
+    width: 310px;
+    padding: 0 0%;
 }
 
 .inputpesquisa {
     border: none;
     background-color: transparent !important;
-    width: 85%;
+    width: 310px;
     font-size: 18px;
     
 }
@@ -103,13 +105,45 @@ margin-top: -2px;
 .btnpesquisa {
 
     border: none;
-    background-color: transparent !important;
-    width: 10%;
-    padding: 1%;
-    margin-top: 4px;
+    background-color: transparent white;
+    border-radius: 12px 0px 0px 12px;
+    width: 25px;
     margin-left: 10px;
 }
 
 .btnpesquisa img {
     width: 70%;
+}
+
+@media screen and (max-width: 850px) {
+    .pesquisahead {
+        width: 95%;
+        margin-left: 5px;   
+    }
+    .formpesquisa {
+        width: 340px;
+
+    }
+    .inputpesquisa {
+        width: 90%;        
+    }
+    .btnpesquisa{
+        background-color: #F0F0F0;
+        border: 2px solid #F0F0F0;    
+    }
+    .Botaonotificações{
+
+        width: 40px;
+        padding: 5px;
+    }
+    .numnotific{
+        margin-left: -10px;
+    }
+    .BotaoConfiguracoes{
+        width: 50px;
+        padding: 5px;
+    }
+    .grupoalertaseconfig {
+        width: 80px;
+    }
 }

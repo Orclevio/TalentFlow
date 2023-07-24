@@ -38,14 +38,15 @@ function header() {
                 </div>
             </div>
             <div className="pesquisahead">
-            <button type="submit" className="btnpesquisa" style={{width: "13%"}}><img alt="" src={pesquisa1}></img></button>
+            <button type="submit" className="btnpesquisa" style={{width: "45px"}}>
+                <img alt="" style={{width: "20px", backgroundColor:"transparent"}} src={pesquisa1}></img>
+                </button>
                 <form className="formpesquisa">
                     <input
                         type="text"
                         placeholder="Pesquisa"
                          className="inputpesquisa"
                     />
-                    <button type="submit" className="btnpesquisa"><img alt="" src={pesquisa}></img></button>
                 </form>
             </div>
 
