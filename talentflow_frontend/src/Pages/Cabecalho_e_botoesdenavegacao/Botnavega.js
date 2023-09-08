@@ -4,6 +4,7 @@ import "./Botnavega.css";
 import iniciobnt from "../../Imagens/Button Nagivation/inicio.png";
 import iniciobntpressed from "../../Imagens/Button Nagivation/inicio_pressed.png";
 import candidatosbnt from "../../Imagens/Button Nagivation/empresas.png";
+import candidatosbntpressed from "../../Imagens/Button Nagivation/empresas_pressed.png";
 import vagasbnt from "../../Imagens/Button Nagivation/vagas.png";
 import curriculosbnt from "../../Imagens/Button Nagivation/curriculo.png";
 import maisbutton from "../../Imagens/Button Nagivation/+ button.png";
@@ -64,17 +65,23 @@ function Botnavega() {
             {!isMobile && (
                 <>
                     <div className={`menu-lateral ${menuVisivel ? 'visivel' : 'oculto'}`}>
+                        
+
+                        
                         <button className="toggle-button" onClick={toggleMenu}>
                             <img src={hamb} alt="Descrição da imagem" className='imgHamb' />
                         </button>
+
+
+                        
                         <h1 className="sidebar-title">TalentFlow</h1>
 
                         <Link to="/Dashboard" className={`menu-button ${location.pathname === '/Dashboard' ? 'active' : ''}`}>
-                            <img src={iniciobnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Dashboard
+                            <img src={location.pathname === '/Dashboard' ? iniciobntpressed : iniciobnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Dashboard
                         </Link>
 
                         <Link to="/Candidatos" className={`menu-button ${location.pathname === '/Candidatos' ? 'active' : ''}`}>
-                            <img src={candidatosbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Candidatos
+                            <img src={location.pathname === '/Candidatos' ? candidatosbntpressed : candidatosbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Candidatos
                         </Link>
 
                         <Link to="/Vagas" className={`menu-button ${location.pathname === '/Vagas' ? 'active' : ''}`}>
@@ -82,7 +89,7 @@ function Botnavega() {
                         </Link>
 
                         <Link to="/Curriculos" className={`menu-button ${location.pathname === '/Curriculos' ? 'active' : ''}`}>
-                            <img src={curriculosbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Curriculos
+                            <img src={curriculosbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Relat. e Análises
                         </Link>
                     </div>
                 </>

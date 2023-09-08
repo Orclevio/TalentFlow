@@ -11,7 +11,7 @@ const quantbloco = 8;
     for (let i = 0; i < quantbloco; i++) {
       blocos.push(
         <div key={i} className="blococol1">
-          <label className="titblocoini">Empresa: pascoa</label>
+          <label className="titblocoini">Empresa: xxxxxxxx</label>
         </div>
       );
     }
