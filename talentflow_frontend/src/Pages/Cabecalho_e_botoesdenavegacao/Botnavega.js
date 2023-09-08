@@ -6,7 +6,9 @@ import iniciobntpressed from "../../Imagens/Button Nagivation/inicio_pressed.png
 import candidatosbnt from "../../Imagens/Button Nagivation/empresas.png";
 import candidatosbntpressed from "../../Imagens/Button Nagivation/empresas_pressed.png";
 import vagasbnt from "../../Imagens/Button Nagivation/vagas.png";
+import vagasbntpressed from "../../Imagens/Button Nagivation/vagas_pressed.png";
 import curriculosbnt from "../../Imagens/Button Nagivation/curriculo.png";
+import curriculosbntpressed from "../../Imagens/Button Nagivation/curriculo_pressed.png";
 import maisbutton from "../../Imagens/Button Nagivation/+ button.png";
 import hamb from '../../Imagens/Button Nagivation/hamb.png';
 
@@ -85,11 +87,11 @@ function Botnavega() {
                         </Link>
 
                         <Link to="/Vagas" className={`menu-button ${location.pathname === '/Vagas' ? 'active' : ''}`}>
-                            <img src={vagasbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Vagas
+                            <img src={location.pathname === '/Vagas' ? vagasbntpressed : vagasbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Vagas
                         </Link>
 
                         <Link to="/Curriculos" className={`menu-button ${location.pathname === '/Curriculos' ? 'active' : ''}`}>
-                            <img src={curriculosbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Relat. e Análises
+                            <img src={location.pathname === '/Curriculos' ? curriculosbntpressed : curriculosbnt} alt="Descrição da imagem" style={{ maxWidth: '15%', verticalAlign: 'middle' }} />Relat. e Análises
                         </Link>
                     </div>
                 </>
